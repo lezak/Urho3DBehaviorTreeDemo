@@ -1,0 +1,35 @@
+{
+    "E1_LOG1":{
+        "en" :"Welcome!\nThis is the first example of Urho3D Behavior Tree Demo Project\nControls are simple - just press Space to continue (sometimes more then one time!)"
+    },
+    "E1_LOG2":{
+        "en" :"This example demonstrates simple tree build and initialized from 'outside' of BehaviorTree class"
+    },
+    "E1_LOG3":{
+        "en" :"BTW This output is printed by the seventh node of the first run of tree build in this example. Now press Space several times(until next message)."
+    },
+    "E1_LOG4":{
+        "en" :"For now each time You press Space, behavior tree sends single step to the first node on active nodes list."
+    },
+    "E1_LOG5":{
+        "en" :"We'll change that later."
+    },
+    "E1_LOG6":{
+        "en" :"This node succeded, but decorator changed success into failure so we can move on to the next branch."
+    },
+    "E1_LOG7":{
+        "en" :"At this moment third branch of our tree is active"
+    },
+    "E1_LOG8":{
+        "en" :"Next node will enable debug logging so You can see what's going on under the hood\n"
+    },
+    "E1_LOG9":{
+        "en" :"You may have noticed that we switched back to logging only info."
+    },
+    "E1_LOG10":{
+        "en" :"You may have also noticed that there is a lot of space pressing. \nThat's because we're using SingleStep() function of behavior tree.\nLet's go back to debug logging and switch to Process() function."
+    },
+    "E1_LOG15":{
+        "en" :"Can You see the difference? Also, you have reached the end of the first example! From now on every time You press Space tree will lead You to this place."
+    }
+}

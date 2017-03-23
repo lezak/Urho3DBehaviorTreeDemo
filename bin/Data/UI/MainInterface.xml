@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+<element>
+	<attribute name="Name" value="MainInterface" />
+	<attribute name="Size" value="1366 705" />
+	<attribute name="Max Anchor" value="1 1" />
+	<attribute name="Pivot" value="0 0" />
+	<attribute name="Enable Anchor" value="true" />
+	<element type="Window">
+		<attribute name="Name" value="ButtonsHolder" />
+		<attribute name="Size" value="136 705" />
+		<attribute name="Max Anchor" value="0.1 1" />
+		<attribute name="Pivot" value="0 0" />
+		<attribute name="Enable Anchor" value="true" />
+		<attribute name="Bring To Front" value="false" />
+		<element>
+			<attribute name="Size" value="136 423" />
+			<attribute name="Min Anchor" value="0 0.2" />
+			<attribute name="Max Anchor" value="1 0.8" />
+			<attribute name="Pivot" value="0 0" />
+			<attribute name="Enable Anchor" value="true" />
+			<attribute name="Layout Mode" value="Vertical" />
+			<attribute name="Layout Spacing" value="3" />
+			<element type="Button">
+				<attribute name="Name" value="InstrBtn" />
+				<attribute name="Min Size" value="0 35" />
+				<attribute name="Max Size" value="2147483647 35" />
+				<attribute name="Pivot" value="0 0" />
+				<element type="Text">
+					<attribute name="Min Anchor" value="0.5 0.5" />
+					<attribute name="Max Anchor" value="0.5 0.5" />
+					<attribute name="Pivot" value="0.5 0.5" />
+					<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+					<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+					<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+					<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+					<attribute name="Text" value="_BTN_INST" />
+					<attribute name="Auto Localizable" value="true" />
+				</element>
+			</element>
+			<element type="Button">
+				<attribute name="Name" value="Exmpl1BTn" />
+				<attribute name="Min Size" value="0 35" />
+				<attribute name="Max Size" value="2147483647 35" />
+				<attribute name="Pivot" value="0 0" />
+				<element type="Text">
+					<attribute name="Min Anchor" value="0.5 0.5" />
+					<attribute name="Max Anchor" value="0.5 0.5" />
+					<attribute name="Pivot" value="0.5 0.5" />
+					<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+					<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+					<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+					<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+					<attribute name="Text" value="_BTN_EXMPL1" />
+					<attribute name="Auto Localizable" value="true" />
+				</element>
+			</element>
+		</element>
+	</element>
+	<element>
+		<attribute name="Name" value="Workspace" />
+		<attribute name="Size" value="1229 705" />
+		<attribute name="Min Anchor" value="0.1 0" />
+		<attribute name="Max Anchor" value="1 1" />
+		<attribute name="Pivot" value="0 0" />
+		<attribute name="Enable Anchor" value="true" />
+		<element type="View3D" style="View3D">
+			<attribute name="Name" value="Viewport" />
+			<attribute name="Size" value="1229 705" />
+			<attribute name="Max Anchor" value="1 1" />
+			<attribute name="Pivot" value="0 0" />
+			<attribute name="Enable Anchor" value="true" />
+			<attribute name="Bring To Front" value="false" />
+			<attribute name="Image Rect" value="0 0 1229 705" />
+		</element>
+		<element type="Window">
+			<attribute name="Name" value="TextPlaceholder" />
+			<attribute name="Size" value="737 423" />
+			<attribute name="Min Anchor" value="0.2 0.2" />
+			<attribute name="Max Anchor" value="0.8 0.8" />
+			<attribute name="Pivot" value="0 0" />
+			<attribute name="Enable Anchor" value="true" />
+			<element type="ListView">
+				<attribute name="Name" value="ContentPanel" />
+				<attribute name="Size" value="589 338" />
+				<attribute name="Min Anchor" value="0.1 0.1" />
+				<attribute name="Max Anchor" value="0.9 0.9" />
+				<attribute name="Pivot" value="0 0" />
+				<attribute name="Enable Anchor" value="true" />
+				<element type="ScrollBar" internal="true" style="none">
+					<attribute name="Size" value="589 16" />
+					<attribute name="Min Anchor" value="0 1" />
+					<attribute name="Max Anchor" value="0 1" />
+					<attribute name="Pivot" value="0 1" />
+					<attribute name="Color" value="0 0 0 0" />
+					<attribute name="Top Left Color" value="0 0 0 0" />
+					<attribute name="Top Right Color" value="0 0 0 0" />
+					<attribute name="Bottom Left Color" value="0 0 0 0" />
+					<attribute name="Bottom Right Color" value="0 0 0 0" />
+					<element type="Button" internal="true" style="none">
+						<attribute name="Pivot" value="0 0" />
+					</element>
+					<element type="Slider" internal="true" style="none">
+						<attribute name="Position" value="16 0" />
+						<attribute name="Size" value="557 16" />
+						<attribute name="Pivot" value="0 0" />
+						<element type="BorderImage" internal="true" style="none">
+							<attribute name="Pivot" value="0 0" />
+						</element>
+					</element>
+					<element type="Button" internal="true" style="none">
+						<attribute name="Position" value="573 0" />
+						<attribute name="Pivot" value="0 0" />
+					</element>
+				</element>
+				<element type="ScrollBar" internal="true" style="none">
+					<attribute name="Size" value="16 338" />
+					<attribute name="Min Anchor" value="1 0" />
+					<attribute name="Max Anchor" value="1 0" />
+					<attribute name="Pivot" value="1 0" />
+					<attribute name="Color" value="0 0 0 0" />
+					<attribute name="Top Left Color" value="0 0 0 0" />
+					<attribute name="Top Right Color" value="0 0 0 0" />
+					<attribute name="Bottom Left Color" value="0 0 0 0" />
+					<attribute name="Bottom Right Color" value="0 0 0 0" />
+					<element type="Button" internal="true" style="none">
+						<attribute name="Pivot" value="0 0" />
+					</element>
+					<element type="Slider" internal="true" style="none">
+						<attribute name="Position" value="0 16" />
+						<attribute name="Size" value="16 306" />
+						<attribute name="Pivot" value="0 0" />
+						<element type="BorderImage" internal="true" style="none">
+							<attribute name="Pivot" value="0 0" />
+						</element>
+					</element>
+					<element type="Button" internal="true" style="none">
+						<attribute name="Position" value="0 322" />
+						<attribute name="Pivot" value="0 0" />
+					</element>
+				</element>
+				<element type="BorderImage" internal="true" style="none">
+					<attribute name="Pivot" value="0 0" />
+					<element internal="true" style="none">
+						<attribute name="Pivot" value="0 0" />
+						<element type="Text">
+							<attribute name="Name" value="ContentText" />
+							<attribute name="Pivot" value="0 0" />
+							<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+							<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+							<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+							<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+							<attribute name="Word Wrap" value="true" />
+							<attribute name="Auto Localizable" value="true" />
+						</element>
+					</element>
+				</element>
+			</element>
+			<element type="Button">
+				<attribute name="Name" value="CloseBtn" />
+				<attribute name="Size" value="221 38" />
+				<attribute name="Min Anchor" value="0.2 0.91" />
+				<attribute name="Max Anchor" value="0.5 1" />
+				<attribute name="Pivot" value="0 0" />
+				<attribute name="Enable Anchor" value="true" />
+				<element type="Text">
+					<attribute name="Min Anchor" value="0.5 0.5" />
+					<attribute name="Max Anchor" value="0.5 0.5" />
+					<attribute name="Pivot" value="0.5 0.5" />
+					<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+					<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+					<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+					<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+					<attribute name="Text" value="_BTN_CLOSE" />
+					<attribute name="Auto Localizable" value="true" />
+				</element>
+			</element>
+			<element type="Button">
+				<attribute name="Name" value="RunBtn" />
+				<attribute name="Size" value="221 38" />
+				<attribute name="Min Anchor" value="0.5 0.91" />
+				<attribute name="Max Anchor" value="0.8 1" />
+				<attribute name="Pivot" value="0 0" />
+				<attribute name="Enable Anchor" value="true" />
+				<element type="Text">
+					<attribute name="Min Anchor" value="0.5 0.5" />
+					<attribute name="Max Anchor" value="0.5 0.5" />
+					<attribute name="Pivot" value="0.5 0.5" />
+					<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+					<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+					<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+					<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+					<attribute name="Text" value="_BTN_RUN" />
+					<attribute name="Auto Localizable" value="true" />
+				</element>
+			</element>
+		</element>
+	</element>
+</element>

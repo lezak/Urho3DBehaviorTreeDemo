@@ -1,0 +1,26 @@
+{
+	"_BTN_INST":{
+		"en" : "Instructions",
+		"pl" : "Instrukcje"
+	},
+	"_BTN_EXMPL1":{
+		"en" : "Example 1",
+		"pl" : "Przykład 1"
+	},
+    "_BTN_CLOSE":{
+        "en" : "Close",
+        "pl" : "Zamknij"
+    },
+    "_BTN_RUN":{
+        "en" : "Run!",
+        "pl" : "Uruchom!"
+    },
+    "_INSTRUCTIONS":{
+        "en" : "Urho3D BehaviorTree demo project\nInstructions\n\nTo be added...\n(Check comments in the source files for example1 for step-by-step instructions how to build a behavior tree)\nInput:\nESC - Exit\nF1 - Toggle console",
+        "pl" :  "Instrukcje\n do dodania... "
+    },
+    "_EXMPL1_DESCR":{
+        "en" : "Example 1: Simple tree - composition of nodes writing output to the log",
+        "pl" : "Przykład 1"
+    }
+}
